@@ -41,7 +41,7 @@ jobs:
               ruff check .
     test:
         runs-on: ubuntu-latest
-        needs: [setup-env, lint]
+        needs: [setup-env, ruff-check]
         steps:
             - name: Checkout code
               uses: actions/checkout@v4
