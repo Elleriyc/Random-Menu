@@ -1,7 +1,5 @@
 import pytest
-import requests
-from unittest.mock import Mock, patch, MagicMock
-from bs4 import BeautifulSoup
+from unittest.mock import Mock, patch
 import sys
 import os
 
